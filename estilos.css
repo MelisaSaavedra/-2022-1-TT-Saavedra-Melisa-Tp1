@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@font-face {
+  font-family: "AlexBrush-Regular";
+  src: url("fonts/AlexBrush-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+::selection {
+  color: #419B9B;
+  background: #79C8CD;
+}
+body {
+  background-color: #B7DEDE;
+}
+body h1, h2 {
+  font-family: "AlexBrush-Regular";
+}
+body h3, h4, p, ul, a {
+  font-family: 'PT Serif', serif;
+}
+.flex-container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  background-color: #A2D7DC;
+  padding: 20px 60px 40px 70px;
+}
+div h1 {
+  width: 650px;
+  height: 70px;
+  margin: 20px 10px 20px 10px;
+  color: #419B9B;
+  font-size: 70px;
+  word-spacing: 10px;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+.botonera {
+  margin: 10px;
+}
+.botonera a {
+  width: 650px;
+  height: 70px;
+  text-decoration: none;
+  color: #000;
+  margin: 20px 15px 20px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+.botonera a:hover {
+  color: #419B9B;
+  text-decoration-line: underline;
+}
+.botonera img {
+  vertical-align: sub;
+}
+.flex-container-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#datospersonales img {
+  margin: 40px 0px 5px 40px;
+}
+#datospersonales h2 {
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #A2D7DC;
+  color: #419B9B;
+  padding: 10px 160px 15px 30px;
+  margin: 5px 0px 5px 40px;
+  font-family: 'PT Serif', serif;
+  font-style: normal
+}
+#datospersonales p {
+  background-color: #A2D7DC;
+  color: #419B9B;
+  width: 300px;
+  height: 25px;
+  font-size: 18px;
+  padding: 10px 160px 15px 30px;
+  margin: 5px 0px 5px 40px;
+  font-style: normal
+}
+.mi-historia h2, h3 {
+  color: #000;
+}
+section h2:hover {
+  color: #419B9B;
+}
+main h2 {
+  width: 400px;
+  height: 50px;
+  margin: 25px 30px 10px 50px;
+  font-size: 40px;
+}
+.mi-historia h3 {
+  width: 250px;
+  height: 30px;
+  margin: 5px 30px 5px 50px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+.mi-historia p {
+  width: 480px;
+  height: 80px;
+  margin: 5px 30px 5px 50px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  line-height: 130%;
+  font-size: 16px;
+  color: #000;
+}
+article ul {
+  width: 500px;
+  height: 160px;
+  list-style: none;
+  margin: 10px 30px 10px 50px;
+  color: #000;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+article ul li {
+  margin: 10px 0px 10px 0px;
+}
+.educacion {
+  width: 375px;
+  height: 420px;
+  text-align: left;
+  background-color: #A2D7DC;
+  border-radius: 20px;
+  padding: 20px 40px 20px 40px;
+  margin: 10px 30px 40px 40px;
+}
+.educacion h2, h3, h4, p {
+  margin: 10px;
+}
+.educacion h2 {
+  width: 150px;
+  height: 40px;
+  color: #419B9B;
+}
+.educacion h3, h4, p, li {
+  text-align: left;
+  list-style: none;
+}
+.educacion h3 {
+  color: #419B9B;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+.educacion h4 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+.educacion p {
+  padding: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+footer {
+  height: 100px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+footer {
+  background-color: #419B9B;
+  padding: 20px 830px 10px 30px;
+}
+footer a {
+  text-decoration-line: none;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+}
+footer a:hover {
+  color: #A2D7DC;
+  font-size: 20px;
+}
+#copy {
+  color: #79C8CD;
+  font-style: italic;
+}
